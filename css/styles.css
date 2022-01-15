@@ -1,0 +1,163 @@
+/***ID Elements**/
+#title {
+  background-color: #FF4c68;
+  column-fill: auto;
+}
+
+#img1 {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 20%;
+}
+
+/***TAG ELEMENTS***/
+Body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: Montserrat-bold;
+  font-size: 3.2rem;
+}
+
+
+/***CLASS ELEMENTS***/
+.container-fluid1 {
+  padding: 3% 15% 7%;
+}
+
+/*navigation bar  */
+.navbar {
+  padding: 0 0 1rem;
+}
+
+.navbar-brand {
+  font-size: 2.2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: Montserrat-light;
+}
+/* Title column */
+
+
+/* Download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.features-h3 {
+  font-family: Montserrat-bold;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.features-p {
+  color: #8f8f8f;
+}
+
+/* Icin Color */
+.fas {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #FF4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+
+}
+
+.testimonials-images {
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+/* Press Section */
+#press {
+  background-color: #FF4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-cards{
+  padding: 3% 2%;
+}
+/* Call to acton */
+#cta{
+  text-align: center;
+  font-family: Montserrat-black;
+  background-color: #FF4c68;
+}
+
+.h3-cta{
+  color: white;
+  font-size: 3rem;
+  padding: 3% 15% 0;
+}
+/* footer elements */
+#footer{
+  text-align: center;
+  padding: 0 0 3%;
+}
+
+.f-icons{
+  margin: 3% 5px 5px;
+  color: #FF4c68;
+}
+
+.p-f{
+font-family:  Montserrat-light;
+}
+
+@media (max-width:1042px) {
+  #img1{
+    transform: rotate(0);
+    position: static;
+
+  }
+  #title{
+    text-align: center;
+  }
+
+}
